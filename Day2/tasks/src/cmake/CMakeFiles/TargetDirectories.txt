@@ -1,0 +1,3 @@
+/home/mira/Desktop/c++file/CMakeFiles/rebuild_cache.dir
+/home/mira/Desktop/c++file/CMakeFiles/c++file.dir
+/home/mira/Desktop/c++file/CMakeFiles/edit_cache.dir
