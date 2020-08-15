@@ -1,4 +1,4 @@
-prefix=/home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/install
+prefix=/home/mira/AUC-Robotics/ROS_course/Day3/AUC Robotics Summer Camp/Day3/catkin_ws/install
 
 Name: ball_chaser
 Description: Description of ball_chaser

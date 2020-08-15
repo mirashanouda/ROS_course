@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/src
+CMAKE_SOURCE_DIR = "/home/mira/AUC-Robotics/ROS_course/Day3/AUC Robotics Summer Camp/Day3/catkin_ws/src"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/build
+CMAKE_BINARY_DIR = "/home/mira/AUC-Robotics/ROS_course/Day3/AUC Robotics Summer Camp/Day3/catkin_ws/build"
 
 # Utility rule file for _catkin_empty_exported_target.
 
@@ -63,10 +63,10 @@ src/my_robot/CMakeFiles/_catkin_empty_exported_target.dir/build: _catkin_empty_e
 .PHONY : src/my_robot/CMakeFiles/_catkin_empty_exported_target.dir/build
 
 src/my_robot/CMakeFiles/_catkin_empty_exported_target.dir/clean:
-	cd /home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/build/src/my_robot && $(CMAKE_COMMAND) -P CMakeFiles/_catkin_empty_exported_target.dir/cmake_clean.cmake
+	cd "/home/mira/AUC-Robotics/ROS_course/Day3/AUC Robotics Summer Camp/Day3/catkin_ws/build/src/my_robot" && $(CMAKE_COMMAND) -P CMakeFiles/_catkin_empty_exported_target.dir/cmake_clean.cmake
 .PHONY : src/my_robot/CMakeFiles/_catkin_empty_exported_target.dir/clean
 
 src/my_robot/CMakeFiles/_catkin_empty_exported_target.dir/depend:
-	cd /home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/src /home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/src/src/my_robot /home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/build /home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/build/src/my_robot /home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/build/src/my_robot/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
+	cd "/home/mira/AUC-Robotics/ROS_course/Day3/AUC Robotics Summer Camp/Day3/catkin_ws/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/mira/AUC-Robotics/ROS_course/Day3/AUC Robotics Summer Camp/Day3/catkin_ws/src" "/home/mira/AUC-Robotics/ROS_course/Day3/AUC Robotics Summer Camp/Day3/catkin_ws/src/src/my_robot" "/home/mira/AUC-Robotics/ROS_course/Day3/AUC Robotics Summer Camp/Day3/catkin_ws/build" "/home/mira/AUC-Robotics/ROS_course/Day3/AUC Robotics Summer Camp/Day3/catkin_ws/build/src/my_robot" "/home/mira/AUC-Robotics/ROS_course/Day3/AUC Robotics Summer Camp/Day3/catkin_ws/build/src/my_robot/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : src/my_robot/CMakeFiles/_catkin_empty_exported_target.dir/depend
 

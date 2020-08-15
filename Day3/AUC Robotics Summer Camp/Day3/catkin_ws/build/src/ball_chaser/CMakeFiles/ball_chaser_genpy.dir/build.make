@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/src
+CMAKE_SOURCE_DIR = "/home/mira/AUC-Robotics/ROS_course/Day3/AUC Robotics Summer Camp/Day3/catkin_ws/src"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/build
+CMAKE_BINARY_DIR = "/home/mira/AUC-Robotics/ROS_course/Day3/AUC Robotics Summer Camp/Day3/catkin_ws/build"
 
 # Utility rule file for ball_chaser_genpy.
 
@@ -63,10 +63,10 @@ src/ball_chaser/CMakeFiles/ball_chaser_genpy.dir/build: ball_chaser_genpy
 .PHONY : src/ball_chaser/CMakeFiles/ball_chaser_genpy.dir/build
 
 src/ball_chaser/CMakeFiles/ball_chaser_genpy.dir/clean:
-	cd /home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/build/src/ball_chaser && $(CMAKE_COMMAND) -P CMakeFiles/ball_chaser_genpy.dir/cmake_clean.cmake
+	cd "/home/mira/AUC-Robotics/ROS_course/Day3/AUC Robotics Summer Camp/Day3/catkin_ws/build/src/ball_chaser" && $(CMAKE_COMMAND) -P CMakeFiles/ball_chaser_genpy.dir/cmake_clean.cmake
 .PHONY : src/ball_chaser/CMakeFiles/ball_chaser_genpy.dir/clean
 
 src/ball_chaser/CMakeFiles/ball_chaser_genpy.dir/depend:
-	cd /home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/src /home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/src/src/ball_chaser /home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/build /home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/build/src/ball_chaser /home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/build/src/ball_chaser/CMakeFiles/ball_chaser_genpy.dir/DependInfo.cmake --color=$(COLOR)
+	cd "/home/mira/AUC-Robotics/ROS_course/Day3/AUC Robotics Summer Camp/Day3/catkin_ws/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/mira/AUC-Robotics/ROS_course/Day3/AUC Robotics Summer Camp/Day3/catkin_ws/src" "/home/mira/AUC-Robotics/ROS_course/Day3/AUC Robotics Summer Camp/Day3/catkin_ws/src/src/ball_chaser" "/home/mira/AUC-Robotics/ROS_course/Day3/AUC Robotics Summer Camp/Day3/catkin_ws/build" "/home/mira/AUC-Robotics/ROS_course/Day3/AUC Robotics Summer Camp/Day3/catkin_ws/build/src/ball_chaser" "/home/mira/AUC-Robotics/ROS_course/Day3/AUC Robotics Summer Camp/Day3/catkin_ws/build/src/ball_chaser/CMakeFiles/ball_chaser_genpy.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : src/ball_chaser/CMakeFiles/ball_chaser_genpy.dir/depend
 

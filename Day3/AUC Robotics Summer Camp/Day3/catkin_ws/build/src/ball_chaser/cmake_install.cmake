@@ -1,8 +1,8 @@
-# Install script for directory: /home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/src/src/ball_chaser
+# Install script for directory: /home/mira/AUC-Robotics/ROS_course/Day3/AUC Robotics Summer Camp/Day3/catkin_ws/src/src/ball_chaser
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/mira/AUC-Robotics/ROS_course/Day3/AUC Robotics Summer Camp/Day3/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,53 +38,53 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ball_chaser/srv" TYPE FILE FILES "/home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/src/src/ball_chaser/srv/DriveToTarget.srv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ball_chaser/srv" TYPE FILE FILES "/home/mira/AUC-Robotics/ROS_course/Day3/AUC Robotics Summer Camp/Day3/catkin_ws/src/src/ball_chaser/srv/DriveToTarget.srv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ball_chaser/cmake" TYPE FILE FILES "/home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/build/src/ball_chaser/catkin_generated/installspace/ball_chaser-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ball_chaser/cmake" TYPE FILE FILES "/home/mira/AUC-Robotics/ROS_course/Day3/AUC Robotics Summer Camp/Day3/catkin_ws/build/src/ball_chaser/catkin_generated/installspace/ball_chaser-msg-paths.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/devel/include/ball_chaser")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/mira/AUC-Robotics/ROS_course/Day3/AUC Robotics Summer Camp/Day3/catkin_ws/devel/include/ball_chaser")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/devel/share/roseus/ros/ball_chaser")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/mira/AUC-Robotics/ROS_course/Day3/AUC Robotics Summer Camp/Day3/catkin_ws/devel/share/roseus/ros/ball_chaser")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/devel/share/common-lisp/ros/ball_chaser")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/mira/AUC-Robotics/ROS_course/Day3/AUC Robotics Summer Camp/Day3/catkin_ws/devel/share/common-lisp/ros/ball_chaser")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/devel/share/gennodejs/ros/ball_chaser")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/mira/AUC-Robotics/ROS_course/Day3/AUC Robotics Summer Camp/Day3/catkin_ws/devel/share/gennodejs/ros/ball_chaser")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/devel/lib/python2.7/dist-packages/ball_chaser")
+  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/mira/AUC-Robotics/ROS_course/Day3/AUC Robotics Summer Camp/Day3/catkin_ws/devel/lib/python2.7/dist-packages/ball_chaser")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/devel/lib/python2.7/dist-packages/ball_chaser")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/mira/AUC-Robotics/ROS_course/Day3/AUC Robotics Summer Camp/Day3/catkin_ws/devel/lib/python2.7/dist-packages/ball_chaser")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/build/src/ball_chaser/catkin_generated/installspace/ball_chaser.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/mira/AUC-Robotics/ROS_course/Day3/AUC Robotics Summer Camp/Day3/catkin_ws/build/src/ball_chaser/catkin_generated/installspace/ball_chaser.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ball_chaser/cmake" TYPE FILE FILES "/home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/build/src/ball_chaser/catkin_generated/installspace/ball_chaser-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ball_chaser/cmake" TYPE FILE FILES "/home/mira/AUC-Robotics/ROS_course/Day3/AUC Robotics Summer Camp/Day3/catkin_ws/build/src/ball_chaser/catkin_generated/installspace/ball_chaser-msg-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ball_chaser/cmake" TYPE FILE FILES
-    "/home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/build/src/ball_chaser/catkin_generated/installspace/ball_chaserConfig.cmake"
-    "/home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/build/src/ball_chaser/catkin_generated/installspace/ball_chaserConfig-version.cmake"
+    "/home/mira/AUC-Robotics/ROS_course/Day3/AUC Robotics Summer Camp/Day3/catkin_ws/build/src/ball_chaser/catkin_generated/installspace/ball_chaserConfig.cmake"
+    "/home/mira/AUC-Robotics/ROS_course/Day3/AUC Robotics Summer Camp/Day3/catkin_ws/build/src/ball_chaser/catkin_generated/installspace/ball_chaserConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ball_chaser" TYPE FILE FILES "/home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/src/src/ball_chaser/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ball_chaser" TYPE FILE FILES "/home/mira/AUC-Robotics/ROS_course/Day3/AUC Robotics Summer Camp/Day3/catkin_ws/src/src/ball_chaser/package.xml")
 endif()
 

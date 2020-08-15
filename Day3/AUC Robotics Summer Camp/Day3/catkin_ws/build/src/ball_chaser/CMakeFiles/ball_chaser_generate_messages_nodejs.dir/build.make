@@ -43,26 +43,26 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/src
+CMAKE_SOURCE_DIR = "/home/mira/AUC-Robotics/ROS_course/Day3/AUC Robotics Summer Camp/Day3/catkin_ws/src"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/build
+CMAKE_BINARY_DIR = "/home/mira/AUC-Robotics/ROS_course/Day3/AUC Robotics Summer Camp/Day3/catkin_ws/build"
 
 # Utility rule file for ball_chaser_generate_messages_nodejs.
 
 # Include the progress variables for this target.
 include src/ball_chaser/CMakeFiles/ball_chaser_generate_messages_nodejs.dir/progress.make
 
-src/ball_chaser/CMakeFiles/ball_chaser_generate_messages_nodejs: /home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/devel/share/gennodejs/ros/ball_chaser/srv/DriveToTarget.js
+src/ball_chaser/CMakeFiles/ball_chaser_generate_messages_nodejs: /home/mira/AUC-Robotics/ROS_course/Day3/AUC\ Robotics\ Summer\ Camp/Day3/catkin_ws/devel/share/gennodejs/ros/ball_chaser/srv/DriveToTarget.js
 
 
-/home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/devel/share/gennodejs/ros/ball_chaser/srv/DriveToTarget.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/devel/share/gennodejs/ros/ball_chaser/srv/DriveToTarget.js: /home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/src/src/ball_chaser/srv/DriveToTarget.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from ball_chaser/DriveToTarget.srv"
-	cd /home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/build/src/ball_chaser && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/src/src/ball_chaser/srv/DriveToTarget.srv -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p ball_chaser -o /home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/devel/share/gennodejs/ros/ball_chaser/srv
+/home/mira/AUC-Robotics/ROS_course/Day3/AUC\ Robotics\ Summer\ Camp/Day3/catkin_ws/devel/share/gennodejs/ros/ball_chaser/srv/DriveToTarget.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/mira/AUC-Robotics/ROS_course/Day3/AUC\ Robotics\ Summer\ Camp/Day3/catkin_ws/devel/share/gennodejs/ros/ball_chaser/srv/DriveToTarget.js: /home/mira/AUC-Robotics/ROS_course/Day3/AUC\ Robotics\ Summer\ Camp/Day3/catkin_ws/src/src/ball_chaser/srv/DriveToTarget.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/mira/AUC-Robotics/ROS_course/Day3/AUC Robotics Summer Camp/Day3/catkin_ws/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from ball_chaser/DriveToTarget.srv"
+	cd "/home/mira/AUC-Robotics/ROS_course/Day3/AUC Robotics Summer Camp/Day3/catkin_ws/build/src/ball_chaser" && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/mira/AUC-Robotics/ROS_course/Day3/AUC\ Robotics\ Summer\ Camp/Day3/catkin_ws/src/src/ball_chaser/srv/DriveToTarget.srv -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p ball_chaser -o /home/mira/AUC-Robotics/ROS_course/Day3/AUC\ Robotics\ Summer\ Camp/Day3/catkin_ws/devel/share/gennodejs/ros/ball_chaser/srv
 
 ball_chaser_generate_messages_nodejs: src/ball_chaser/CMakeFiles/ball_chaser_generate_messages_nodejs
-ball_chaser_generate_messages_nodejs: /home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/devel/share/gennodejs/ros/ball_chaser/srv/DriveToTarget.js
+ball_chaser_generate_messages_nodejs: /home/mira/AUC-Robotics/ROS_course/Day3/AUC\ Robotics\ Summer\ Camp/Day3/catkin_ws/devel/share/gennodejs/ros/ball_chaser/srv/DriveToTarget.js
 ball_chaser_generate_messages_nodejs: src/ball_chaser/CMakeFiles/ball_chaser_generate_messages_nodejs.dir/build.make
 
 .PHONY : ball_chaser_generate_messages_nodejs
@@ -73,10 +73,10 @@ src/ball_chaser/CMakeFiles/ball_chaser_generate_messages_nodejs.dir/build: ball_
 .PHONY : src/ball_chaser/CMakeFiles/ball_chaser_generate_messages_nodejs.dir/build
 
 src/ball_chaser/CMakeFiles/ball_chaser_generate_messages_nodejs.dir/clean:
-	cd /home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/build/src/ball_chaser && $(CMAKE_COMMAND) -P CMakeFiles/ball_chaser_generate_messages_nodejs.dir/cmake_clean.cmake
+	cd "/home/mira/AUC-Robotics/ROS_course/Day3/AUC Robotics Summer Camp/Day3/catkin_ws/build/src/ball_chaser" && $(CMAKE_COMMAND) -P CMakeFiles/ball_chaser_generate_messages_nodejs.dir/cmake_clean.cmake
 .PHONY : src/ball_chaser/CMakeFiles/ball_chaser_generate_messages_nodejs.dir/clean
 
 src/ball_chaser/CMakeFiles/ball_chaser_generate_messages_nodejs.dir/depend:
-	cd /home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/src /home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/src/src/ball_chaser /home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/build /home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/build/src/ball_chaser /home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/build/src/ball_chaser/CMakeFiles/ball_chaser_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd "/home/mira/AUC-Robotics/ROS_course/Day3/AUC Robotics Summer Camp/Day3/catkin_ws/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/mira/AUC-Robotics/ROS_course/Day3/AUC Robotics Summer Camp/Day3/catkin_ws/src" "/home/mira/AUC-Robotics/ROS_course/Day3/AUC Robotics Summer Camp/Day3/catkin_ws/src/src/ball_chaser" "/home/mira/AUC-Robotics/ROS_course/Day3/AUC Robotics Summer Camp/Day3/catkin_ws/build" "/home/mira/AUC-Robotics/ROS_course/Day3/AUC Robotics Summer Camp/Day3/catkin_ws/build/src/ball_chaser" "/home/mira/AUC-Robotics/ROS_course/Day3/AUC Robotics Summer Camp/Day3/catkin_ws/build/src/ball_chaser/CMakeFiles/ball_chaser_generate_messages_nodejs.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : src/ball_chaser/CMakeFiles/ball_chaser_generate_messages_nodejs.dir/depend
 

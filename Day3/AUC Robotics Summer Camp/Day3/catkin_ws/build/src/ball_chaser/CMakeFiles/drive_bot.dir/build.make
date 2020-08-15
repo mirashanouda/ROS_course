@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/src
+CMAKE_SOURCE_DIR = "/home/mira/AUC-Robotics/ROS_course/Day3/AUC Robotics Summer Camp/Day3/catkin_ws/src"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/build
+CMAKE_BINARY_DIR = "/home/mira/AUC-Robotics/ROS_course/Day3/AUC Robotics Summer Camp/Day3/catkin_ws/build"
 
 # Include any dependencies generated for this target.
 include src/ball_chaser/CMakeFiles/drive_bot.dir/depend.make
@@ -58,17 +58,17 @@ include src/ball_chaser/CMakeFiles/drive_bot.dir/progress.make
 include src/ball_chaser/CMakeFiles/drive_bot.dir/flags.make
 
 src/ball_chaser/CMakeFiles/drive_bot.dir/src/drive_bot.cpp.o: src/ball_chaser/CMakeFiles/drive_bot.dir/flags.make
-src/ball_chaser/CMakeFiles/drive_bot.dir/src/drive_bot.cpp.o: /home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/src/src/ball_chaser/src/drive_bot.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/ball_chaser/CMakeFiles/drive_bot.dir/src/drive_bot.cpp.o"
-	cd /home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/build/src/ball_chaser && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/drive_bot.dir/src/drive_bot.cpp.o -c /home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/src/src/ball_chaser/src/drive_bot.cpp
+src/ball_chaser/CMakeFiles/drive_bot.dir/src/drive_bot.cpp.o: /home/mira/AUC-Robotics/ROS_course/Day3/AUC\ Robotics\ Summer\ Camp/Day3/catkin_ws/src/src/ball_chaser/src/drive_bot.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/mira/AUC-Robotics/ROS_course/Day3/AUC Robotics Summer Camp/Day3/catkin_ws/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/ball_chaser/CMakeFiles/drive_bot.dir/src/drive_bot.cpp.o"
+	cd "/home/mira/AUC-Robotics/ROS_course/Day3/AUC Robotics Summer Camp/Day3/catkin_ws/build/src/ball_chaser" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/drive_bot.dir/src/drive_bot.cpp.o -c "/home/mira/AUC-Robotics/ROS_course/Day3/AUC Robotics Summer Camp/Day3/catkin_ws/src/src/ball_chaser/src/drive_bot.cpp"
 
 src/ball_chaser/CMakeFiles/drive_bot.dir/src/drive_bot.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/drive_bot.dir/src/drive_bot.cpp.i"
-	cd /home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/build/src/ball_chaser && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/src/src/ball_chaser/src/drive_bot.cpp > CMakeFiles/drive_bot.dir/src/drive_bot.cpp.i
+	cd "/home/mira/AUC-Robotics/ROS_course/Day3/AUC Robotics Summer Camp/Day3/catkin_ws/build/src/ball_chaser" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/mira/AUC-Robotics/ROS_course/Day3/AUC Robotics Summer Camp/Day3/catkin_ws/src/src/ball_chaser/src/drive_bot.cpp" > CMakeFiles/drive_bot.dir/src/drive_bot.cpp.i
 
 src/ball_chaser/CMakeFiles/drive_bot.dir/src/drive_bot.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/drive_bot.dir/src/drive_bot.cpp.s"
-	cd /home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/build/src/ball_chaser && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/src/src/ball_chaser/src/drive_bot.cpp -o CMakeFiles/drive_bot.dir/src/drive_bot.cpp.s
+	cd "/home/mira/AUC-Robotics/ROS_course/Day3/AUC Robotics Summer Camp/Day3/catkin_ws/build/src/ball_chaser" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/mira/AUC-Robotics/ROS_course/Day3/AUC Robotics Summer Camp/Day3/catkin_ws/src/src/ball_chaser/src/drive_bot.cpp" -o CMakeFiles/drive_bot.dir/src/drive_bot.cpp.s
 
 src/ball_chaser/CMakeFiles/drive_bot.dir/src/drive_bot.cpp.o.requires:
 
@@ -88,32 +88,32 @@ drive_bot_OBJECTS = \
 # External object files for target drive_bot
 drive_bot_EXTERNAL_OBJECTS =
 
-/home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/devel/lib/ball_chaser/drive_bot: src/ball_chaser/CMakeFiles/drive_bot.dir/src/drive_bot.cpp.o
-/home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/devel/lib/ball_chaser/drive_bot: src/ball_chaser/CMakeFiles/drive_bot.dir/build.make
-/home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/devel/lib/ball_chaser/drive_bot: /opt/ros/melodic/lib/libroscpp.so
-/home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/devel/lib/ball_chaser/drive_bot: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/devel/lib/ball_chaser/drive_bot: /opt/ros/melodic/lib/librosconsole.so
-/home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/devel/lib/ball_chaser/drive_bot: /opt/ros/melodic/lib/librosconsole_log4cxx.so
-/home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/devel/lib/ball_chaser/drive_bot: /opt/ros/melodic/lib/librosconsole_backend_interface.so
-/home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/devel/lib/ball_chaser/drive_bot: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/devel/lib/ball_chaser/drive_bot: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/devel/lib/ball_chaser/drive_bot: /opt/ros/melodic/lib/libroscpp_serialization.so
-/home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/devel/lib/ball_chaser/drive_bot: /opt/ros/melodic/lib/libxmlrpcpp.so
-/home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/devel/lib/ball_chaser/drive_bot: /opt/ros/melodic/lib/librostime.so
-/home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/devel/lib/ball_chaser/drive_bot: /opt/ros/melodic/lib/libcpp_common.so
-/home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/devel/lib/ball_chaser/drive_bot: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/devel/lib/ball_chaser/drive_bot: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/devel/lib/ball_chaser/drive_bot: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/devel/lib/ball_chaser/drive_bot: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/devel/lib/ball_chaser/drive_bot: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/devel/lib/ball_chaser/drive_bot: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/devel/lib/ball_chaser/drive_bot: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/devel/lib/ball_chaser/drive_bot: src/ball_chaser/CMakeFiles/drive_bot.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/devel/lib/ball_chaser/drive_bot"
-	cd /home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/build/src/ball_chaser && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/drive_bot.dir/link.txt --verbose=$(VERBOSE)
+/home/mira/AUC-Robotics/ROS_course/Day3/AUC\ Robotics\ Summer\ Camp/Day3/catkin_ws/devel/lib/ball_chaser/drive_bot: src/ball_chaser/CMakeFiles/drive_bot.dir/src/drive_bot.cpp.o
+/home/mira/AUC-Robotics/ROS_course/Day3/AUC\ Robotics\ Summer\ Camp/Day3/catkin_ws/devel/lib/ball_chaser/drive_bot: src/ball_chaser/CMakeFiles/drive_bot.dir/build.make
+/home/mira/AUC-Robotics/ROS_course/Day3/AUC\ Robotics\ Summer\ Camp/Day3/catkin_ws/devel/lib/ball_chaser/drive_bot: /opt/ros/melodic/lib/libroscpp.so
+/home/mira/AUC-Robotics/ROS_course/Day3/AUC\ Robotics\ Summer\ Camp/Day3/catkin_ws/devel/lib/ball_chaser/drive_bot: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/mira/AUC-Robotics/ROS_course/Day3/AUC\ Robotics\ Summer\ Camp/Day3/catkin_ws/devel/lib/ball_chaser/drive_bot: /opt/ros/melodic/lib/librosconsole.so
+/home/mira/AUC-Robotics/ROS_course/Day3/AUC\ Robotics\ Summer\ Camp/Day3/catkin_ws/devel/lib/ball_chaser/drive_bot: /opt/ros/melodic/lib/librosconsole_log4cxx.so
+/home/mira/AUC-Robotics/ROS_course/Day3/AUC\ Robotics\ Summer\ Camp/Day3/catkin_ws/devel/lib/ball_chaser/drive_bot: /opt/ros/melodic/lib/librosconsole_backend_interface.so
+/home/mira/AUC-Robotics/ROS_course/Day3/AUC\ Robotics\ Summer\ Camp/Day3/catkin_ws/devel/lib/ball_chaser/drive_bot: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/mira/AUC-Robotics/ROS_course/Day3/AUC\ Robotics\ Summer\ Camp/Day3/catkin_ws/devel/lib/ball_chaser/drive_bot: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/mira/AUC-Robotics/ROS_course/Day3/AUC\ Robotics\ Summer\ Camp/Day3/catkin_ws/devel/lib/ball_chaser/drive_bot: /opt/ros/melodic/lib/libroscpp_serialization.so
+/home/mira/AUC-Robotics/ROS_course/Day3/AUC\ Robotics\ Summer\ Camp/Day3/catkin_ws/devel/lib/ball_chaser/drive_bot: /opt/ros/melodic/lib/libxmlrpcpp.so
+/home/mira/AUC-Robotics/ROS_course/Day3/AUC\ Robotics\ Summer\ Camp/Day3/catkin_ws/devel/lib/ball_chaser/drive_bot: /opt/ros/melodic/lib/librostime.so
+/home/mira/AUC-Robotics/ROS_course/Day3/AUC\ Robotics\ Summer\ Camp/Day3/catkin_ws/devel/lib/ball_chaser/drive_bot: /opt/ros/melodic/lib/libcpp_common.so
+/home/mira/AUC-Robotics/ROS_course/Day3/AUC\ Robotics\ Summer\ Camp/Day3/catkin_ws/devel/lib/ball_chaser/drive_bot: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/mira/AUC-Robotics/ROS_course/Day3/AUC\ Robotics\ Summer\ Camp/Day3/catkin_ws/devel/lib/ball_chaser/drive_bot: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/mira/AUC-Robotics/ROS_course/Day3/AUC\ Robotics\ Summer\ Camp/Day3/catkin_ws/devel/lib/ball_chaser/drive_bot: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/mira/AUC-Robotics/ROS_course/Day3/AUC\ Robotics\ Summer\ Camp/Day3/catkin_ws/devel/lib/ball_chaser/drive_bot: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/mira/AUC-Robotics/ROS_course/Day3/AUC\ Robotics\ Summer\ Camp/Day3/catkin_ws/devel/lib/ball_chaser/drive_bot: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/mira/AUC-Robotics/ROS_course/Day3/AUC\ Robotics\ Summer\ Camp/Day3/catkin_ws/devel/lib/ball_chaser/drive_bot: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/mira/AUC-Robotics/ROS_course/Day3/AUC\ Robotics\ Summer\ Camp/Day3/catkin_ws/devel/lib/ball_chaser/drive_bot: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/mira/AUC-Robotics/ROS_course/Day3/AUC\ Robotics\ Summer\ Camp/Day3/catkin_ws/devel/lib/ball_chaser/drive_bot: src/ball_chaser/CMakeFiles/drive_bot.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/mira/AUC-Robotics/ROS_course/Day3/AUC Robotics Summer Camp/Day3/catkin_ws/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable \"/home/mira/AUC-Robotics/ROS_course/Day3/AUC Robotics Summer Camp/Day3/catkin_ws/devel/lib/ball_chaser/drive_bot\""
+	cd "/home/mira/AUC-Robotics/ROS_course/Day3/AUC Robotics Summer Camp/Day3/catkin_ws/build/src/ball_chaser" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/drive_bot.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-src/ball_chaser/CMakeFiles/drive_bot.dir/build: /home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/devel/lib/ball_chaser/drive_bot
+src/ball_chaser/CMakeFiles/drive_bot.dir/build: /home/mira/AUC-Robotics/ROS_course/Day3/AUC\ Robotics\ Summer\ Camp/Day3/catkin_ws/devel/lib/ball_chaser/drive_bot
 
 .PHONY : src/ball_chaser/CMakeFiles/drive_bot.dir/build
 
@@ -122,10 +122,10 @@ src/ball_chaser/CMakeFiles/drive_bot.dir/requires: src/ball_chaser/CMakeFiles/dr
 .PHONY : src/ball_chaser/CMakeFiles/drive_bot.dir/requires
 
 src/ball_chaser/CMakeFiles/drive_bot.dir/clean:
-	cd /home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/build/src/ball_chaser && $(CMAKE_COMMAND) -P CMakeFiles/drive_bot.dir/cmake_clean.cmake
+	cd "/home/mira/AUC-Robotics/ROS_course/Day3/AUC Robotics Summer Camp/Day3/catkin_ws/build/src/ball_chaser" && $(CMAKE_COMMAND) -P CMakeFiles/drive_bot.dir/cmake_clean.cmake
 .PHONY : src/ball_chaser/CMakeFiles/drive_bot.dir/clean
 
 src/ball_chaser/CMakeFiles/drive_bot.dir/depend:
-	cd /home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/src /home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/src/src/ball_chaser /home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/build /home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/build/src/ball_chaser /home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/build/src/ball_chaser/CMakeFiles/drive_bot.dir/DependInfo.cmake --color=$(COLOR)
+	cd "/home/mira/AUC-Robotics/ROS_course/Day3/AUC Robotics Summer Camp/Day3/catkin_ws/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/mira/AUC-Robotics/ROS_course/Day3/AUC Robotics Summer Camp/Day3/catkin_ws/src" "/home/mira/AUC-Robotics/ROS_course/Day3/AUC Robotics Summer Camp/Day3/catkin_ws/src/src/ball_chaser" "/home/mira/AUC-Robotics/ROS_course/Day3/AUC Robotics Summer Camp/Day3/catkin_ws/build" "/home/mira/AUC-Robotics/ROS_course/Day3/AUC Robotics Summer Camp/Day3/catkin_ws/build/src/ball_chaser" "/home/mira/AUC-Robotics/ROS_course/Day3/AUC Robotics Summer Camp/Day3/catkin_ws/build/src/ball_chaser/CMakeFiles/drive_bot.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : src/ball_chaser/CMakeFiles/drive_bot.dir/depend
 

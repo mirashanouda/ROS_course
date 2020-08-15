@@ -43,33 +43,33 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/src
+CMAKE_SOURCE_DIR = "/home/mira/AUC-Robotics/ROS_course/Day3/AUC Robotics Summer Camp/Day3/catkin_ws/src"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/build
+CMAKE_BINARY_DIR = "/home/mira/AUC-Robotics/ROS_course/Day3/AUC Robotics Summer Camp/Day3/catkin_ws/build"
 
 # Utility rule file for ball_chaser_generate_messages_py.
 
 # Include the progress variables for this target.
 include src/ball_chaser/CMakeFiles/ball_chaser_generate_messages_py.dir/progress.make
 
-src/ball_chaser/CMakeFiles/ball_chaser_generate_messages_py: /home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/devel/lib/python2.7/dist-packages/ball_chaser/srv/_DriveToTarget.py
-src/ball_chaser/CMakeFiles/ball_chaser_generate_messages_py: /home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/devel/lib/python2.7/dist-packages/ball_chaser/srv/__init__.py
+src/ball_chaser/CMakeFiles/ball_chaser_generate_messages_py: /home/mira/AUC-Robotics/ROS_course/Day3/AUC\ Robotics\ Summer\ Camp/Day3/catkin_ws/devel/lib/python2.7/dist-packages/ball_chaser/srv/_DriveToTarget.py
+src/ball_chaser/CMakeFiles/ball_chaser_generate_messages_py: /home/mira/AUC-Robotics/ROS_course/Day3/AUC\ Robotics\ Summer\ Camp/Day3/catkin_ws/devel/lib/python2.7/dist-packages/ball_chaser/srv/__init__.py
 
 
-/home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/devel/lib/python2.7/dist-packages/ball_chaser/srv/_DriveToTarget.py: /opt/ros/melodic/lib/genpy/gensrv_py.py
-/home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/devel/lib/python2.7/dist-packages/ball_chaser/srv/_DriveToTarget.py: /home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/src/src/ball_chaser/srv/DriveToTarget.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code from SRV ball_chaser/DriveToTarget"
-	cd /home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/build/src/ball_chaser && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/src/src/ball_chaser/srv/DriveToTarget.srv -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p ball_chaser -o /home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/devel/lib/python2.7/dist-packages/ball_chaser/srv
+/home/mira/AUC-Robotics/ROS_course/Day3/AUC\ Robotics\ Summer\ Camp/Day3/catkin_ws/devel/lib/python2.7/dist-packages/ball_chaser/srv/_DriveToTarget.py: /opt/ros/melodic/lib/genpy/gensrv_py.py
+/home/mira/AUC-Robotics/ROS_course/Day3/AUC\ Robotics\ Summer\ Camp/Day3/catkin_ws/devel/lib/python2.7/dist-packages/ball_chaser/srv/_DriveToTarget.py: /home/mira/AUC-Robotics/ROS_course/Day3/AUC\ Robotics\ Summer\ Camp/Day3/catkin_ws/src/src/ball_chaser/srv/DriveToTarget.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/mira/AUC-Robotics/ROS_course/Day3/AUC Robotics Summer Camp/Day3/catkin_ws/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code from SRV ball_chaser/DriveToTarget"
+	cd "/home/mira/AUC-Robotics/ROS_course/Day3/AUC Robotics Summer Camp/Day3/catkin_ws/build/src/ball_chaser" && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/mira/AUC-Robotics/ROS_course/Day3/AUC\ Robotics\ Summer\ Camp/Day3/catkin_ws/src/src/ball_chaser/srv/DriveToTarget.srv -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p ball_chaser -o /home/mira/AUC-Robotics/ROS_course/Day3/AUC\ Robotics\ Summer\ Camp/Day3/catkin_ws/devel/lib/python2.7/dist-packages/ball_chaser/srv
 
-/home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/devel/lib/python2.7/dist-packages/ball_chaser/srv/__init__.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
-/home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/devel/lib/python2.7/dist-packages/ball_chaser/srv/__init__.py: /home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/devel/lib/python2.7/dist-packages/ball_chaser/srv/_DriveToTarget.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python srv __init__.py for ball_chaser"
-	cd /home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/build/src/ball_chaser && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/devel/lib/python2.7/dist-packages/ball_chaser/srv --initpy
+/home/mira/AUC-Robotics/ROS_course/Day3/AUC\ Robotics\ Summer\ Camp/Day3/catkin_ws/devel/lib/python2.7/dist-packages/ball_chaser/srv/__init__.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
+/home/mira/AUC-Robotics/ROS_course/Day3/AUC\ Robotics\ Summer\ Camp/Day3/catkin_ws/devel/lib/python2.7/dist-packages/ball_chaser/srv/__init__.py: /home/mira/AUC-Robotics/ROS_course/Day3/AUC\ Robotics\ Summer\ Camp/Day3/catkin_ws/devel/lib/python2.7/dist-packages/ball_chaser/srv/_DriveToTarget.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/mira/AUC-Robotics/ROS_course/Day3/AUC Robotics Summer Camp/Day3/catkin_ws/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Generating Python srv __init__.py for ball_chaser"
+	cd "/home/mira/AUC-Robotics/ROS_course/Day3/AUC Robotics Summer Camp/Day3/catkin_ws/build/src/ball_chaser" && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/mira/AUC-Robotics/ROS_course/Day3/AUC\ Robotics\ Summer\ Camp/Day3/catkin_ws/devel/lib/python2.7/dist-packages/ball_chaser/srv --initpy
 
 ball_chaser_generate_messages_py: src/ball_chaser/CMakeFiles/ball_chaser_generate_messages_py
-ball_chaser_generate_messages_py: /home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/devel/lib/python2.7/dist-packages/ball_chaser/srv/_DriveToTarget.py
-ball_chaser_generate_messages_py: /home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/devel/lib/python2.7/dist-packages/ball_chaser/srv/__init__.py
+ball_chaser_generate_messages_py: /home/mira/AUC-Robotics/ROS_course/Day3/AUC\ Robotics\ Summer\ Camp/Day3/catkin_ws/devel/lib/python2.7/dist-packages/ball_chaser/srv/_DriveToTarget.py
+ball_chaser_generate_messages_py: /home/mira/AUC-Robotics/ROS_course/Day3/AUC\ Robotics\ Summer\ Camp/Day3/catkin_ws/devel/lib/python2.7/dist-packages/ball_chaser/srv/__init__.py
 ball_chaser_generate_messages_py: src/ball_chaser/CMakeFiles/ball_chaser_generate_messages_py.dir/build.make
 
 .PHONY : ball_chaser_generate_messages_py
@@ -80,10 +80,10 @@ src/ball_chaser/CMakeFiles/ball_chaser_generate_messages_py.dir/build: ball_chas
 .PHONY : src/ball_chaser/CMakeFiles/ball_chaser_generate_messages_py.dir/build
 
 src/ball_chaser/CMakeFiles/ball_chaser_generate_messages_py.dir/clean:
-	cd /home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/build/src/ball_chaser && $(CMAKE_COMMAND) -P CMakeFiles/ball_chaser_generate_messages_py.dir/cmake_clean.cmake
+	cd "/home/mira/AUC-Robotics/ROS_course/Day3/AUC Robotics Summer Camp/Day3/catkin_ws/build/src/ball_chaser" && $(CMAKE_COMMAND) -P CMakeFiles/ball_chaser_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : src/ball_chaser/CMakeFiles/ball_chaser_generate_messages_py.dir/clean
 
 src/ball_chaser/CMakeFiles/ball_chaser_generate_messages_py.dir/depend:
-	cd /home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/src /home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/src/src/ball_chaser /home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/build /home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/build/src/ball_chaser /home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/build/src/ball_chaser/CMakeFiles/ball_chaser_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd "/home/mira/AUC-Robotics/ROS_course/Day3/AUC Robotics Summer Camp/Day3/catkin_ws/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/mira/AUC-Robotics/ROS_course/Day3/AUC Robotics Summer Camp/Day3/catkin_ws/src" "/home/mira/AUC-Robotics/ROS_course/Day3/AUC Robotics Summer Camp/Day3/catkin_ws/src/src/ball_chaser" "/home/mira/AUC-Robotics/ROS_course/Day3/AUC Robotics Summer Camp/Day3/catkin_ws/build" "/home/mira/AUC-Robotics/ROS_course/Day3/AUC Robotics Summer Camp/Day3/catkin_ws/build/src/ball_chaser" "/home/mira/AUC-Robotics/ROS_course/Day3/AUC Robotics Summer Camp/Day3/catkin_ws/build/src/ball_chaser/CMakeFiles/ball_chaser_generate_messages_py.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : src/ball_chaser/CMakeFiles/ball_chaser_generate_messages_py.dir/depend
 
