@@ -1,0 +1,2 @@
+gazebo_bot
+-DCATKIN_DEVEL_PREFIX=/home/khaled/auc/Day5/khaled_ws/devel -DCMAKE_INSTALL_PREFIX=/home/khaled/auc/Day5/khaled_ws/install -G Unix Makefiles

@@ -1,0 +1,8 @@
+prefix=/home/khaled/auc/Day5/khaled_ws/devel
+
+Name: gazebo_bot
+Description: Description of gazebo_bot
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

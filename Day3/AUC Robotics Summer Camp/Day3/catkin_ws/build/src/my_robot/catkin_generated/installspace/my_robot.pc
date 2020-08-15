@@ -1,0 +1,8 @@
+prefix=/home/mira/AUC-Robotics/ROS_course/Day3/AUC-Robotics-Summer-Camp/Day3/catkin_ws/install
+
+Name: my_robot
+Description: Description of my_robot
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
