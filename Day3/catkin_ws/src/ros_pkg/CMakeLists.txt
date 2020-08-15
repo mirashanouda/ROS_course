@@ -14,6 +14,7 @@ find_package(catkin REQUIRED COMPONENTS
   std_msgs
 )
 
+
 ## System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)
 
@@ -121,6 +122,7 @@ include_directories(
   ${catkin_INCLUDE_DIRS}
 )
 
+add_executable(hello_ROS_cpp src/hello_ROS.cpp)
 ## Declare a C++ library
 # add_library(${PROJECT_NAME}
 #   src/${PROJECT_NAME}/ros_pkg.cpp

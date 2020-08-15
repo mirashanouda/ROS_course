@@ -1,0 +1,8 @@
+prefix=/home/mira/AUC-Robotics/ROS_course/Day3/catkin_ws/devel
+
+Name: ros_pkg
+Description: Description of ros_pkg
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

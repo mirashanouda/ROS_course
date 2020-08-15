@@ -7,7 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/mira/AUC-Robotics/ROS_course/Day3/catkin_ws/devel:$CMAKE_PREFIX_PATH"
 export PWD='/home/mira/AUC-Robotics/ROS_course/Day3/catkin_ws/build'
-export ROSLISP_PACKAGE_DIRECTORIES='/home/mira/AUC-Robotics/ROS_course/Day3/catkin_ws/devel/share/common-lisp'
-export ROS_PACKAGE_PATH="/home/mira/AUC-Robotics/ROS_course/Day3/catkin_ws/src:$ROS_PACKAGE_PATH"

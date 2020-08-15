@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/hello_ROS_cpp.dir/src/hello_ROS.cpp.o  -o /home/mira/AUC-Robotics/ROS_course/Day3/catkin_ws/devel/lib/ros_pkg/hello_ROS_cpp 
