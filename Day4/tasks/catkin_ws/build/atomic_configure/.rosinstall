@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/mira/AUC-Robotics/ROS_course/Day4/tasks/catkin_ws/devel/setup.sh
