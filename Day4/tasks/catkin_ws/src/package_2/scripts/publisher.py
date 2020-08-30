@@ -22,10 +22,10 @@ def talker():
     count = 0 
     #this loop is terminated with ctrl C
     while not rospy.is_shutdown(): 
-        count = count + 1
         rospy.loginfo(count) #to print
         pub.publish(count) #to publish
         rate.sleep() #this makes the loop works until ctrl C
+        count = count + 1
 
 #starting main function:    
 if __name__ == '__main__':
