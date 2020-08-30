@@ -408,11 +408,13 @@ clean: gtest/googlemock/gtest/CMakeFiles/gtest.dir/clean
 # Directory level rules for directory package_2
 
 # Convenience name for "all" pass in the directory.
-package_2/all:
+package_2/all: package_2/CMakeFiles/subscriber_cpp.dir/all
+package_2/all: package_2/CMakeFiles/publisher_cpp.dir/all
 
 .PHONY : package_2/all
 
 # Convenience name for "clean" pass in the directory.
+package_2/clean: package_2/CMakeFiles/subscriber_cpp.dir/clean
 package_2/clean: package_2/CMakeFiles/roscpp_generate_messages_py.dir/clean
 package_2/clean: package_2/CMakeFiles/roscpp_generate_messages_eus.dir/clean
 package_2/clean: package_2/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
@@ -428,6 +430,7 @@ package_2/clean: package_2/CMakeFiles/std_msgs_generate_messages_eus.dir/clean
 package_2/clean: package_2/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
 package_2/clean: package_2/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
 package_2/clean: package_2/CMakeFiles/std_msgs_generate_messages_py.dir/clean
+package_2/clean: package_2/CMakeFiles/publisher_cpp.dir/clean
 
 .PHONY : package_2/clean
 
@@ -435,6 +438,43 @@ package_2/clean: package_2/CMakeFiles/std_msgs_generate_messages_py.dir/clean
 package_2/preinstall:
 
 .PHONY : package_2/preinstall
+
+#=============================================================================
+# Target rules for target package_2/CMakeFiles/subscriber_cpp.dir
+
+# All Build rule for target.
+package_2/CMakeFiles/subscriber_cpp.dir/all:
+	$(MAKE) -f package_2/CMakeFiles/subscriber_cpp.dir/build.make package_2/CMakeFiles/subscriber_cpp.dir/depend
+	$(MAKE) -f package_2/CMakeFiles/subscriber_cpp.dir/build.make package_2/CMakeFiles/subscriber_cpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mira/AUC-Robotics/ROS_course/Day4/tasks/catkin_ws/build/CMakeFiles --progress-num=14,15 "Built target subscriber_cpp"
+.PHONY : package_2/CMakeFiles/subscriber_cpp.dir/all
+
+# Include target in all.
+all: package_2/CMakeFiles/subscriber_cpp.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+package_2/CMakeFiles/subscriber_cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mira/AUC-Robotics/ROS_course/Day4/tasks/catkin_ws/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 package_2/CMakeFiles/subscriber_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mira/AUC-Robotics/ROS_course/Day4/tasks/catkin_ws/build/CMakeFiles 0
+.PHONY : package_2/CMakeFiles/subscriber_cpp.dir/rule
+
+# Convenience name for target.
+subscriber_cpp: package_2/CMakeFiles/subscriber_cpp.dir/rule
+
+.PHONY : subscriber_cpp
+
+# clean rule for target.
+package_2/CMakeFiles/subscriber_cpp.dir/clean:
+	$(MAKE) -f package_2/CMakeFiles/subscriber_cpp.dir/build.make package_2/CMakeFiles/subscriber_cpp.dir/clean
+.PHONY : package_2/CMakeFiles/subscriber_cpp.dir/clean
+
+# clean rule for target.
+clean: package_2/CMakeFiles/subscriber_cpp.dir/clean
+
+.PHONY : clean
 
 #=============================================================================
 # Target rules for target package_2/CMakeFiles/roscpp_generate_messages_py.dir
@@ -913,6 +953,43 @@ package_2/CMakeFiles/std_msgs_generate_messages_py.dir/clean:
 
 # clean rule for target.
 clean: package_2/CMakeFiles/std_msgs_generate_messages_py.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target package_2/CMakeFiles/publisher_cpp.dir
+
+# All Build rule for target.
+package_2/CMakeFiles/publisher_cpp.dir/all:
+	$(MAKE) -f package_2/CMakeFiles/publisher_cpp.dir/build.make package_2/CMakeFiles/publisher_cpp.dir/depend
+	$(MAKE) -f package_2/CMakeFiles/publisher_cpp.dir/build.make package_2/CMakeFiles/publisher_cpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mira/AUC-Robotics/ROS_course/Day4/tasks/catkin_ws/build/CMakeFiles --progress-num=12,13 "Built target publisher_cpp"
+.PHONY : package_2/CMakeFiles/publisher_cpp.dir/all
+
+# Include target in all.
+all: package_2/CMakeFiles/publisher_cpp.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+package_2/CMakeFiles/publisher_cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mira/AUC-Robotics/ROS_course/Day4/tasks/catkin_ws/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 package_2/CMakeFiles/publisher_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mira/AUC-Robotics/ROS_course/Day4/tasks/catkin_ws/build/CMakeFiles 0
+.PHONY : package_2/CMakeFiles/publisher_cpp.dir/rule
+
+# Convenience name for target.
+publisher_cpp: package_2/CMakeFiles/publisher_cpp.dir/rule
+
+.PHONY : publisher_cpp
+
+# clean rule for target.
+package_2/CMakeFiles/publisher_cpp.dir/clean:
+	$(MAKE) -f package_2/CMakeFiles/publisher_cpp.dir/build.make package_2/CMakeFiles/publisher_cpp.dir/clean
+.PHONY : package_2/CMakeFiles/publisher_cpp.dir/clean
+
+# clean rule for target.
+clean: package_2/CMakeFiles/publisher_cpp.dir/clean
 
 .PHONY : clean
 

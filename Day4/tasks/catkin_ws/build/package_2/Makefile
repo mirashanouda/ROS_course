@@ -91,6 +91,17 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
+	/usr/bin/ctest --force-new-ctest-process $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+
+.PHONY : test/fast
+
 # Special rule for the target list_install_components
 list_install_components:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
@@ -124,17 +135,6 @@ install/fast: preinstall/fast
 	/usr/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
 
-# Special rule for the target test
-test:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
-	/usr/bin/ctest --force-new-ctest-process $(ARGS)
-.PHONY : test
-
-# Special rule for the target test
-test/fast: test
-
-.PHONY : test/fast
-
 # The main all target
 all: cmake_check_build_system
 	cd /home/mira/AUC-Robotics/ROS_course/Day4/tasks/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/mira/AUC-Robotics/ROS_course/Day4/tasks/catkin_ws/build/CMakeFiles /home/mira/AUC-Robotics/ROS_course/Day4/tasks/catkin_ws/build/package_2/CMakeFiles/progress.marks
@@ -166,6 +166,21 @@ preinstall/fast:
 depend:
 	cd /home/mira/AUC-Robotics/ROS_course/Day4/tasks/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+# Convenience name for target.
+package_2/CMakeFiles/subscriber_cpp.dir/rule:
+	cd /home/mira/AUC-Robotics/ROS_course/Day4/tasks/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 package_2/CMakeFiles/subscriber_cpp.dir/rule
+.PHONY : package_2/CMakeFiles/subscriber_cpp.dir/rule
+
+# Convenience name for target.
+subscriber_cpp: package_2/CMakeFiles/subscriber_cpp.dir/rule
+
+.PHONY : subscriber_cpp
+
+# fast build rule for target.
+subscriber_cpp/fast:
+	cd /home/mira/AUC-Robotics/ROS_course/Day4/tasks/catkin_ws/build && $(MAKE) -f package_2/CMakeFiles/subscriber_cpp.dir/build.make package_2/CMakeFiles/subscriber_cpp.dir/build
+.PHONY : subscriber_cpp/fast
 
 # Convenience name for target.
 package_2/CMakeFiles/roscpp_generate_messages_py.dir/rule:
@@ -392,6 +407,75 @@ std_msgs_generate_messages_py/fast:
 	cd /home/mira/AUC-Robotics/ROS_course/Day4/tasks/catkin_ws/build && $(MAKE) -f package_2/CMakeFiles/std_msgs_generate_messages_py.dir/build.make package_2/CMakeFiles/std_msgs_generate_messages_py.dir/build
 .PHONY : std_msgs_generate_messages_py/fast
 
+# Convenience name for target.
+package_2/CMakeFiles/publisher_cpp.dir/rule:
+	cd /home/mira/AUC-Robotics/ROS_course/Day4/tasks/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 package_2/CMakeFiles/publisher_cpp.dir/rule
+.PHONY : package_2/CMakeFiles/publisher_cpp.dir/rule
+
+# Convenience name for target.
+publisher_cpp: package_2/CMakeFiles/publisher_cpp.dir/rule
+
+.PHONY : publisher_cpp
+
+# fast build rule for target.
+publisher_cpp/fast:
+	cd /home/mira/AUC-Robotics/ROS_course/Day4/tasks/catkin_ws/build && $(MAKE) -f package_2/CMakeFiles/publisher_cpp.dir/build.make package_2/CMakeFiles/publisher_cpp.dir/build
+.PHONY : publisher_cpp/fast
+
+src/publisher.o: src/publisher.cpp.o
+
+.PHONY : src/publisher.o
+
+# target to build an object file
+src/publisher.cpp.o:
+	cd /home/mira/AUC-Robotics/ROS_course/Day4/tasks/catkin_ws/build && $(MAKE) -f package_2/CMakeFiles/publisher_cpp.dir/build.make package_2/CMakeFiles/publisher_cpp.dir/src/publisher.cpp.o
+.PHONY : src/publisher.cpp.o
+
+src/publisher.i: src/publisher.cpp.i
+
+.PHONY : src/publisher.i
+
+# target to preprocess a source file
+src/publisher.cpp.i:
+	cd /home/mira/AUC-Robotics/ROS_course/Day4/tasks/catkin_ws/build && $(MAKE) -f package_2/CMakeFiles/publisher_cpp.dir/build.make package_2/CMakeFiles/publisher_cpp.dir/src/publisher.cpp.i
+.PHONY : src/publisher.cpp.i
+
+src/publisher.s: src/publisher.cpp.s
+
+.PHONY : src/publisher.s
+
+# target to generate assembly for a file
+src/publisher.cpp.s:
+	cd /home/mira/AUC-Robotics/ROS_course/Day4/tasks/catkin_ws/build && $(MAKE) -f package_2/CMakeFiles/publisher_cpp.dir/build.make package_2/CMakeFiles/publisher_cpp.dir/src/publisher.cpp.s
+.PHONY : src/publisher.cpp.s
+
+src/subscriber.o: src/subscriber.cpp.o
+
+.PHONY : src/subscriber.o
+
+# target to build an object file
+src/subscriber.cpp.o:
+	cd /home/mira/AUC-Robotics/ROS_course/Day4/tasks/catkin_ws/build && $(MAKE) -f package_2/CMakeFiles/subscriber_cpp.dir/build.make package_2/CMakeFiles/subscriber_cpp.dir/src/subscriber.cpp.o
+.PHONY : src/subscriber.cpp.o
+
+src/subscriber.i: src/subscriber.cpp.i
+
+.PHONY : src/subscriber.i
+
+# target to preprocess a source file
+src/subscriber.cpp.i:
+	cd /home/mira/AUC-Robotics/ROS_course/Day4/tasks/catkin_ws/build && $(MAKE) -f package_2/CMakeFiles/subscriber_cpp.dir/build.make package_2/CMakeFiles/subscriber_cpp.dir/src/subscriber.cpp.i
+.PHONY : src/subscriber.cpp.i
+
+src/subscriber.s: src/subscriber.cpp.s
+
+.PHONY : src/subscriber.s
+
+# target to generate assembly for a file
+src/subscriber.cpp.s:
+	cd /home/mira/AUC-Robotics/ROS_course/Day4/tasks/catkin_ws/build && $(MAKE) -f package_2/CMakeFiles/subscriber_cpp.dir/build.make package_2/CMakeFiles/subscriber_cpp.dir/src/subscriber.cpp.s
+.PHONY : src/subscriber.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -401,6 +485,8 @@ help:
 	@echo "... install/strip"
 	@echo "... install/local"
 	@echo "... rebuild_cache"
+	@echo "... test"
+	@echo "... subscriber_cpp"
 	@echo "... list_install_components"
 	@echo "... roscpp_generate_messages_py"
 	@echo "... roscpp_generate_messages_eus"
@@ -419,7 +505,13 @@ help:
 	@echo "... std_msgs_generate_messages_nodejs"
 	@echo "... roscpp_generate_messages_nodejs"
 	@echo "... std_msgs_generate_messages_py"
-	@echo "... test"
+	@echo "... publisher_cpp"
+	@echo "... src/publisher.o"
+	@echo "... src/publisher.i"
+	@echo "... src/publisher.s"
+	@echo "... src/subscriber.o"
+	@echo "... src/subscriber.i"
+	@echo "... src/subscriber.s"
 .PHONY : help
 
 

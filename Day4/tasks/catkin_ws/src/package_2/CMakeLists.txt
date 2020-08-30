@@ -120,6 +120,12 @@ include_directories(
   ${catkin_INCLUDE_DIRS}
 )
 
+add_executable(publisher_cpp src/publisher.cpp)
+target_link_libraries(publisher_cpp ${catkin_LIBRARIES})
+
+add_executable(subscriber_cpp src/subscriber.cpp)
+target_link_libraries(subscriber_cpp ${catkin_LIBRARIES})
+
 ## Declare a C++ library
 # add_library(${PROJECT_NAME}
 #   src/${PROJECT_NAME}/package_2.cpp

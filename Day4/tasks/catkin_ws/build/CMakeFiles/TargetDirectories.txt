@@ -38,6 +38,8 @@
 /home/mira/AUC-Robotics/ROS_course/Day4/tasks/catkin_ws/build/package_2/CMakeFiles/install/strip.dir
 /home/mira/AUC-Robotics/ROS_course/Day4/tasks/catkin_ws/build/package_2/CMakeFiles/install/local.dir
 /home/mira/AUC-Robotics/ROS_course/Day4/tasks/catkin_ws/build/package_2/CMakeFiles/rebuild_cache.dir
+/home/mira/AUC-Robotics/ROS_course/Day4/tasks/catkin_ws/build/package_2/CMakeFiles/test.dir
+/home/mira/AUC-Robotics/ROS_course/Day4/tasks/catkin_ws/build/package_2/CMakeFiles/subscriber_cpp.dir
 /home/mira/AUC-Robotics/ROS_course/Day4/tasks/catkin_ws/build/package_2/CMakeFiles/list_install_components.dir
 /home/mira/AUC-Robotics/ROS_course/Day4/tasks/catkin_ws/build/package_2/CMakeFiles/roscpp_generate_messages_py.dir
 /home/mira/AUC-Robotics/ROS_course/Day4/tasks/catkin_ws/build/package_2/CMakeFiles/roscpp_generate_messages_eus.dir
@@ -56,4 +58,4 @@
 /home/mira/AUC-Robotics/ROS_course/Day4/tasks/catkin_ws/build/package_2/CMakeFiles/std_msgs_generate_messages_nodejs.dir
 /home/mira/AUC-Robotics/ROS_course/Day4/tasks/catkin_ws/build/package_2/CMakeFiles/roscpp_generate_messages_nodejs.dir
 /home/mira/AUC-Robotics/ROS_course/Day4/tasks/catkin_ws/build/package_2/CMakeFiles/std_msgs_generate_messages_py.dir
-/home/mira/AUC-Robotics/ROS_course/Day4/tasks/catkin_ws/build/package_2/CMakeFiles/test.dir
+/home/mira/AUC-Robotics/ROS_course/Day4/tasks/catkin_ws/build/package_2/CMakeFiles/publisher_cpp.dir
