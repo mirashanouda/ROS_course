@@ -56,6 +56,28 @@ CMAKE_BINARY_DIR = /home/mira/AUC-Robotics/ROS_course/Day4/Practice/catkin_ws/bu
 #=============================================================================
 # Targets provided globally by CMake.
 
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
+
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
+	/usr/bin/ctest --force-new-ctest-process $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+
+.PHONY : test/fast
+
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
@@ -79,28 +101,6 @@ install/local/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
 	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
-
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
-# Special rule for the target test
-test:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
-	/usr/bin/ctest --force-new-ctest-process $(ARGS)
-.PHONY : test
-
-# Special rule for the target test
-test/fast: test
-
-.PHONY : test/fast
 
 # Special rule for the target list_install_components
 list_install_components:
@@ -181,6 +181,156 @@ subscriber: pkg_2/CMakeFiles/subscriber.dir/rule
 subscriber/fast:
 	cd /home/mira/AUC-Robotics/ROS_course/Day4/Practice/catkin_ws/build && $(MAKE) -f pkg_2/CMakeFiles/subscriber.dir/build.make pkg_2/CMakeFiles/subscriber.dir/build
 .PHONY : subscriber/fast
+
+# Convenience name for target.
+pkg_2/CMakeFiles/pkg_2_genpy.dir/rule:
+	cd /home/mira/AUC-Robotics/ROS_course/Day4/Practice/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pkg_2/CMakeFiles/pkg_2_genpy.dir/rule
+.PHONY : pkg_2/CMakeFiles/pkg_2_genpy.dir/rule
+
+# Convenience name for target.
+pkg_2_genpy: pkg_2/CMakeFiles/pkg_2_genpy.dir/rule
+
+.PHONY : pkg_2_genpy
+
+# fast build rule for target.
+pkg_2_genpy/fast:
+	cd /home/mira/AUC-Robotics/ROS_course/Day4/Practice/catkin_ws/build && $(MAKE) -f pkg_2/CMakeFiles/pkg_2_genpy.dir/build.make pkg_2/CMakeFiles/pkg_2_genpy.dir/build
+.PHONY : pkg_2_genpy/fast
+
+# Convenience name for target.
+pkg_2/CMakeFiles/pkg_2_generate_messages_py.dir/rule:
+	cd /home/mira/AUC-Robotics/ROS_course/Day4/Practice/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pkg_2/CMakeFiles/pkg_2_generate_messages_py.dir/rule
+.PHONY : pkg_2/CMakeFiles/pkg_2_generate_messages_py.dir/rule
+
+# Convenience name for target.
+pkg_2_generate_messages_py: pkg_2/CMakeFiles/pkg_2_generate_messages_py.dir/rule
+
+.PHONY : pkg_2_generate_messages_py
+
+# fast build rule for target.
+pkg_2_generate_messages_py/fast:
+	cd /home/mira/AUC-Robotics/ROS_course/Day4/Practice/catkin_ws/build && $(MAKE) -f pkg_2/CMakeFiles/pkg_2_generate_messages_py.dir/build.make pkg_2/CMakeFiles/pkg_2_generate_messages_py.dir/build
+.PHONY : pkg_2_generate_messages_py/fast
+
+# Convenience name for target.
+pkg_2/CMakeFiles/pkg_2_gennodejs.dir/rule:
+	cd /home/mira/AUC-Robotics/ROS_course/Day4/Practice/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pkg_2/CMakeFiles/pkg_2_gennodejs.dir/rule
+.PHONY : pkg_2/CMakeFiles/pkg_2_gennodejs.dir/rule
+
+# Convenience name for target.
+pkg_2_gennodejs: pkg_2/CMakeFiles/pkg_2_gennodejs.dir/rule
+
+.PHONY : pkg_2_gennodejs
+
+# fast build rule for target.
+pkg_2_gennodejs/fast:
+	cd /home/mira/AUC-Robotics/ROS_course/Day4/Practice/catkin_ws/build && $(MAKE) -f pkg_2/CMakeFiles/pkg_2_gennodejs.dir/build.make pkg_2/CMakeFiles/pkg_2_gennodejs.dir/build
+.PHONY : pkg_2_gennodejs/fast
+
+# Convenience name for target.
+pkg_2/CMakeFiles/pkg_2_generate_messages_nodejs.dir/rule:
+	cd /home/mira/AUC-Robotics/ROS_course/Day4/Practice/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pkg_2/CMakeFiles/pkg_2_generate_messages_nodejs.dir/rule
+.PHONY : pkg_2/CMakeFiles/pkg_2_generate_messages_nodejs.dir/rule
+
+# Convenience name for target.
+pkg_2_generate_messages_nodejs: pkg_2/CMakeFiles/pkg_2_generate_messages_nodejs.dir/rule
+
+.PHONY : pkg_2_generate_messages_nodejs
+
+# fast build rule for target.
+pkg_2_generate_messages_nodejs/fast:
+	cd /home/mira/AUC-Robotics/ROS_course/Day4/Practice/catkin_ws/build && $(MAKE) -f pkg_2/CMakeFiles/pkg_2_generate_messages_nodejs.dir/build.make pkg_2/CMakeFiles/pkg_2_generate_messages_nodejs.dir/build
+.PHONY : pkg_2_generate_messages_nodejs/fast
+
+# Convenience name for target.
+pkg_2/CMakeFiles/pkg_2_genlisp.dir/rule:
+	cd /home/mira/AUC-Robotics/ROS_course/Day4/Practice/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pkg_2/CMakeFiles/pkg_2_genlisp.dir/rule
+.PHONY : pkg_2/CMakeFiles/pkg_2_genlisp.dir/rule
+
+# Convenience name for target.
+pkg_2_genlisp: pkg_2/CMakeFiles/pkg_2_genlisp.dir/rule
+
+.PHONY : pkg_2_genlisp
+
+# fast build rule for target.
+pkg_2_genlisp/fast:
+	cd /home/mira/AUC-Robotics/ROS_course/Day4/Practice/catkin_ws/build && $(MAKE) -f pkg_2/CMakeFiles/pkg_2_genlisp.dir/build.make pkg_2/CMakeFiles/pkg_2_genlisp.dir/build
+.PHONY : pkg_2_genlisp/fast
+
+# Convenience name for target.
+pkg_2/CMakeFiles/pkg_2_generate_messages_lisp.dir/rule:
+	cd /home/mira/AUC-Robotics/ROS_course/Day4/Practice/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pkg_2/CMakeFiles/pkg_2_generate_messages_lisp.dir/rule
+.PHONY : pkg_2/CMakeFiles/pkg_2_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+pkg_2_generate_messages_lisp: pkg_2/CMakeFiles/pkg_2_generate_messages_lisp.dir/rule
+
+.PHONY : pkg_2_generate_messages_lisp
+
+# fast build rule for target.
+pkg_2_generate_messages_lisp/fast:
+	cd /home/mira/AUC-Robotics/ROS_course/Day4/Practice/catkin_ws/build && $(MAKE) -f pkg_2/CMakeFiles/pkg_2_generate_messages_lisp.dir/build.make pkg_2/CMakeFiles/pkg_2_generate_messages_lisp.dir/build
+.PHONY : pkg_2_generate_messages_lisp/fast
+
+# Convenience name for target.
+pkg_2/CMakeFiles/pkg_2_geneus.dir/rule:
+	cd /home/mira/AUC-Robotics/ROS_course/Day4/Practice/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pkg_2/CMakeFiles/pkg_2_geneus.dir/rule
+.PHONY : pkg_2/CMakeFiles/pkg_2_geneus.dir/rule
+
+# Convenience name for target.
+pkg_2_geneus: pkg_2/CMakeFiles/pkg_2_geneus.dir/rule
+
+.PHONY : pkg_2_geneus
+
+# fast build rule for target.
+pkg_2_geneus/fast:
+	cd /home/mira/AUC-Robotics/ROS_course/Day4/Practice/catkin_ws/build && $(MAKE) -f pkg_2/CMakeFiles/pkg_2_geneus.dir/build.make pkg_2/CMakeFiles/pkg_2_geneus.dir/build
+.PHONY : pkg_2_geneus/fast
+
+# Convenience name for target.
+pkg_2/CMakeFiles/pkg_2_gencpp.dir/rule:
+	cd /home/mira/AUC-Robotics/ROS_course/Day4/Practice/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pkg_2/CMakeFiles/pkg_2_gencpp.dir/rule
+.PHONY : pkg_2/CMakeFiles/pkg_2_gencpp.dir/rule
+
+# Convenience name for target.
+pkg_2_gencpp: pkg_2/CMakeFiles/pkg_2_gencpp.dir/rule
+
+.PHONY : pkg_2_gencpp
+
+# fast build rule for target.
+pkg_2_gencpp/fast:
+	cd /home/mira/AUC-Robotics/ROS_course/Day4/Practice/catkin_ws/build && $(MAKE) -f pkg_2/CMakeFiles/pkg_2_gencpp.dir/build.make pkg_2/CMakeFiles/pkg_2_gencpp.dir/build
+.PHONY : pkg_2_gencpp/fast
+
+# Convenience name for target.
+pkg_2/CMakeFiles/pkg_2_generate_messages_cpp.dir/rule:
+	cd /home/mira/AUC-Robotics/ROS_course/Day4/Practice/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pkg_2/CMakeFiles/pkg_2_generate_messages_cpp.dir/rule
+.PHONY : pkg_2/CMakeFiles/pkg_2_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+pkg_2_generate_messages_cpp: pkg_2/CMakeFiles/pkg_2_generate_messages_cpp.dir/rule
+
+.PHONY : pkg_2_generate_messages_cpp
+
+# fast build rule for target.
+pkg_2_generate_messages_cpp/fast:
+	cd /home/mira/AUC-Robotics/ROS_course/Day4/Practice/catkin_ws/build && $(MAKE) -f pkg_2/CMakeFiles/pkg_2_generate_messages_cpp.dir/build.make pkg_2/CMakeFiles/pkg_2_generate_messages_cpp.dir/build
+.PHONY : pkg_2_generate_messages_cpp/fast
+
+# Convenience name for target.
+pkg_2/CMakeFiles/_pkg_2_generate_messages_check_deps_message_file.dir/rule:
+	cd /home/mira/AUC-Robotics/ROS_course/Day4/Practice/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pkg_2/CMakeFiles/_pkg_2_generate_messages_check_deps_message_file.dir/rule
+.PHONY : pkg_2/CMakeFiles/_pkg_2_generate_messages_check_deps_message_file.dir/rule
+
+# Convenience name for target.
+_pkg_2_generate_messages_check_deps_message_file: pkg_2/CMakeFiles/_pkg_2_generate_messages_check_deps_message_file.dir/rule
+
+.PHONY : _pkg_2_generate_messages_check_deps_message_file
+
+# fast build rule for target.
+_pkg_2_generate_messages_check_deps_message_file/fast:
+	cd /home/mira/AUC-Robotics/ROS_course/Day4/Practice/catkin_ws/build && $(MAKE) -f pkg_2/CMakeFiles/_pkg_2_generate_messages_check_deps_message_file.dir/build.make pkg_2/CMakeFiles/_pkg_2_generate_messages_check_deps_message_file.dir/build
+.PHONY : _pkg_2_generate_messages_check_deps_message_file/fast
 
 # Convenience name for target.
 pkg_2/CMakeFiles/roscpp_generate_messages_py.dir/rule:
@@ -273,6 +423,21 @@ roscpp_generate_messages_cpp/fast:
 .PHONY : roscpp_generate_messages_cpp/fast
 
 # Convenience name for target.
+pkg_2/CMakeFiles/pkg_2_generate_messages_eus.dir/rule:
+	cd /home/mira/AUC-Robotics/ROS_course/Day4/Practice/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pkg_2/CMakeFiles/pkg_2_generate_messages_eus.dir/rule
+.PHONY : pkg_2/CMakeFiles/pkg_2_generate_messages_eus.dir/rule
+
+# Convenience name for target.
+pkg_2_generate_messages_eus: pkg_2/CMakeFiles/pkg_2_generate_messages_eus.dir/rule
+
+.PHONY : pkg_2_generate_messages_eus
+
+# fast build rule for target.
+pkg_2_generate_messages_eus/fast:
+	cd /home/mira/AUC-Robotics/ROS_course/Day4/Practice/catkin_ws/build && $(MAKE) -f pkg_2/CMakeFiles/pkg_2_generate_messages_eus.dir/build.make pkg_2/CMakeFiles/pkg_2_generate_messages_eus.dir/build
+.PHONY : pkg_2_generate_messages_eus/fast
+
+# Convenience name for target.
 pkg_2/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule:
 	cd /home/mira/AUC-Robotics/ROS_course/Day4/Practice/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pkg_2/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
 .PHONY : pkg_2/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
@@ -301,6 +466,21 @@ rosgraph_msgs_generate_messages_lisp: pkg_2/CMakeFiles/rosgraph_msgs_generate_me
 rosgraph_msgs_generate_messages_lisp/fast:
 	cd /home/mira/AUC-Robotics/ROS_course/Day4/Practice/catkin_ws/build && $(MAKE) -f pkg_2/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make pkg_2/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
 .PHONY : rosgraph_msgs_generate_messages_lisp/fast
+
+# Convenience name for target.
+pkg_2/CMakeFiles/pkg_2_generate_messages.dir/rule:
+	cd /home/mira/AUC-Robotics/ROS_course/Day4/Practice/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pkg_2/CMakeFiles/pkg_2_generate_messages.dir/rule
+.PHONY : pkg_2/CMakeFiles/pkg_2_generate_messages.dir/rule
+
+# Convenience name for target.
+pkg_2_generate_messages: pkg_2/CMakeFiles/pkg_2_generate_messages.dir/rule
+
+.PHONY : pkg_2_generate_messages
+
+# fast build rule for target.
+pkg_2_generate_messages/fast:
+	cd /home/mira/AUC-Robotics/ROS_course/Day4/Practice/catkin_ws/build && $(MAKE) -f pkg_2/CMakeFiles/pkg_2_generate_messages.dir/build.make pkg_2/CMakeFiles/pkg_2_generate_messages.dir/build
+.PHONY : pkg_2_generate_messages/fast
 
 # Convenience name for target.
 pkg_2/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule:
@@ -363,6 +543,36 @@ std_msgs_generate_messages_eus/fast:
 .PHONY : std_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
+pkg_2/CMakeFiles/publisher.dir/rule:
+	cd /home/mira/AUC-Robotics/ROS_course/Day4/Practice/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pkg_2/CMakeFiles/publisher.dir/rule
+.PHONY : pkg_2/CMakeFiles/publisher.dir/rule
+
+# Convenience name for target.
+publisher: pkg_2/CMakeFiles/publisher.dir/rule
+
+.PHONY : publisher
+
+# fast build rule for target.
+publisher/fast:
+	cd /home/mira/AUC-Robotics/ROS_course/Day4/Practice/catkin_ws/build && $(MAKE) -f pkg_2/CMakeFiles/publisher.dir/build.make pkg_2/CMakeFiles/publisher.dir/build
+.PHONY : publisher/fast
+
+# Convenience name for target.
+pkg_2/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule:
+	cd /home/mira/AUC-Robotics/ROS_course/Day4/Practice/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pkg_2/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
+.PHONY : pkg_2/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
+
+# Convenience name for target.
+std_msgs_generate_messages_nodejs: pkg_2/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
+
+.PHONY : std_msgs_generate_messages_nodejs
+
+# fast build rule for target.
+std_msgs_generate_messages_nodejs/fast:
+	cd /home/mira/AUC-Robotics/ROS_course/Day4/Practice/catkin_ws/build && $(MAKE) -f pkg_2/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make pkg_2/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
+.PHONY : std_msgs_generate_messages_nodejs/fast
+
+# Convenience name for target.
 pkg_2/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule:
 	cd /home/mira/AUC-Robotics/ROS_course/Day4/Practice/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pkg_2/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
 .PHONY : pkg_2/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
@@ -391,36 +601,6 @@ std_msgs_generate_messages_py: pkg_2/CMakeFiles/std_msgs_generate_messages_py.di
 std_msgs_generate_messages_py/fast:
 	cd /home/mira/AUC-Robotics/ROS_course/Day4/Practice/catkin_ws/build && $(MAKE) -f pkg_2/CMakeFiles/std_msgs_generate_messages_py.dir/build.make pkg_2/CMakeFiles/std_msgs_generate_messages_py.dir/build
 .PHONY : std_msgs_generate_messages_py/fast
-
-# Convenience name for target.
-pkg_2/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/mira/AUC-Robotics/ROS_course/Day4/Practice/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pkg_2/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
-.PHONY : pkg_2/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_nodejs: pkg_2/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
-
-.PHONY : std_msgs_generate_messages_nodejs
-
-# fast build rule for target.
-std_msgs_generate_messages_nodejs/fast:
-	cd /home/mira/AUC-Robotics/ROS_course/Day4/Practice/catkin_ws/build && $(MAKE) -f pkg_2/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make pkg_2/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
-.PHONY : std_msgs_generate_messages_nodejs/fast
-
-# Convenience name for target.
-pkg_2/CMakeFiles/publisher.dir/rule:
-	cd /home/mira/AUC-Robotics/ROS_course/Day4/Practice/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pkg_2/CMakeFiles/publisher.dir/rule
-.PHONY : pkg_2/CMakeFiles/publisher.dir/rule
-
-# Convenience name for target.
-publisher: pkg_2/CMakeFiles/publisher.dir/rule
-
-.PHONY : publisher
-
-# fast build rule for target.
-publisher/fast:
-	cd /home/mira/AUC-Robotics/ROS_course/Day4/Practice/catkin_ws/build && $(MAKE) -f pkg_2/CMakeFiles/publisher.dir/build.make pkg_2/CMakeFiles/publisher.dir/build
-.PHONY : publisher/fast
 
 src/publisher.o: src/publisher.cpp.o
 
@@ -482,11 +662,21 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... install/strip"
-	@echo "... install/local"
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... subscriber"
+	@echo "... install/strip"
+	@echo "... pkg_2_genpy"
+	@echo "... pkg_2_generate_messages_py"
+	@echo "... pkg_2_gennodejs"
+	@echo "... install/local"
+	@echo "... pkg_2_generate_messages_nodejs"
+	@echo "... pkg_2_genlisp"
+	@echo "... pkg_2_generate_messages_lisp"
+	@echo "... pkg_2_geneus"
+	@echo "... pkg_2_gencpp"
+	@echo "... pkg_2_generate_messages_cpp"
+	@echo "... _pkg_2_generate_messages_check_deps_message_file"
 	@echo "... list_install_components"
 	@echo "... roscpp_generate_messages_py"
 	@echo "... roscpp_generate_messages_eus"
@@ -496,16 +686,18 @@ help:
 	@echo "... std_msgs_generate_messages_lisp"
 	@echo "... roscpp_generate_messages_cpp"
 	@echo "... install"
+	@echo "... pkg_2_generate_messages_eus"
 	@echo "... rosgraph_msgs_generate_messages_eus"
 	@echo "... rosgraph_msgs_generate_messages_lisp"
+	@echo "... pkg_2_generate_messages"
 	@echo "... std_msgs_generate_messages_cpp"
 	@echo "... rosgraph_msgs_generate_messages_nodejs"
 	@echo "... rosgraph_msgs_generate_messages_py"
 	@echo "... std_msgs_generate_messages_eus"
+	@echo "... publisher"
+	@echo "... std_msgs_generate_messages_nodejs"
 	@echo "... roscpp_generate_messages_nodejs"
 	@echo "... std_msgs_generate_messages_py"
-	@echo "... std_msgs_generate_messages_nodejs"
-	@echo "... publisher"
 	@echo "... src/publisher.o"
 	@echo "... src/publisher.i"
 	@echo "... src/publisher.s"

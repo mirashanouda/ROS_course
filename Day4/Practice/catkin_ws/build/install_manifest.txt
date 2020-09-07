@@ -1,0 +1,13 @@
+/home/mira/AUC-Robotics/ROS_course/Day4/Practice/catkin_ws/install/_setup_util.py
+/home/mira/AUC-Robotics/ROS_course/Day4/Practice/catkin_ws/install/env.sh
+/home/mira/AUC-Robotics/ROS_course/Day4/Practice/catkin_ws/install/setup.bash
+/home/mira/AUC-Robotics/ROS_course/Day4/Practice/catkin_ws/install/local_setup.bash
+/home/mira/AUC-Robotics/ROS_course/Day4/Practice/catkin_ws/install/setup.sh
+/home/mira/AUC-Robotics/ROS_course/Day4/Practice/catkin_ws/install/local_setup.sh
+/home/mira/AUC-Robotics/ROS_course/Day4/Practice/catkin_ws/install/setup.zsh
+/home/mira/AUC-Robotics/ROS_course/Day4/Practice/catkin_ws/install/local_setup.zsh
+/home/mira/AUC-Robotics/ROS_course/Day4/Practice/catkin_ws/install/.rosinstall
+/home/mira/AUC-Robotics/ROS_course/Day4/Practice/catkin_ws/install/lib/pkgconfig/pkg_2.pc
+/home/mira/AUC-Robotics/ROS_course/Day4/Practice/catkin_ws/install/share/pkg_2/cmake/pkg_2Config.cmake
+/home/mira/AUC-Robotics/ROS_course/Day4/Practice/catkin_ws/install/share/pkg_2/cmake/pkg_2Config-version.cmake
+/home/mira/AUC-Robotics/ROS_course/Day4/Practice/catkin_ws/install/share/pkg_2/package.xml
